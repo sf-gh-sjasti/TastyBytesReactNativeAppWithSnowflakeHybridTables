@@ -43,7 +43,6 @@ Base = declarative_base()
 class CustomerLoyalty(Base):
     __tablename__ = 'CUSTOMER_LOYALTY'
     __table_args__ = {'extend_existing': True}
-    __table_args__ = {'schema': 'RAW_CUSTOMER'}
 
     customer_id = db.Column(db.Numeric(38,0), primary_key=True)
     first_name = db.Column(db.String(50))
