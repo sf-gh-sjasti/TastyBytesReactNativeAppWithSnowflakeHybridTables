@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Tasty Bytes Driver App",
+    "slug": "Tasty Bytes Driver App",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "Tasty Bytes Driver App"
+}
