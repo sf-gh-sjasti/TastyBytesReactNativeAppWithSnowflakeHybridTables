@@ -1,0 +1,51 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "build": "npx expo export:web"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.20.13",
+    "@expo/webpack-config": "^0.17.2",
+    "@react-navigation/native": "6.0.10",
+    "@react-navigation/native-stack": "6.6.1",
+    "@types/react-native-elements": "^0.18.0",
+    "expo": "^47.0.14",
+    "expo-file-system": "~15.1.1",
+    "expo-splash-screen": "~0.17.5",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "npm": "^9.3.1",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.8",
+    "react-native-elements": "^3.4.3",
+    "react-native-gesture-handler": "~2.8.0",
+    "react-native-reanimated": "~2.12.0",
+    "react-native-spinner-button": "^1.4.0",
+    "react-native-tab-view": "^3.3.4",
+    "react-native-web": "~0.18.9",
+    "react-navigation": "^4.4.4",
+    "url": "~0.10.1",
+    "util": "~0.10.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "react-native-dotenv": "^3.4.10",
+    "react-native-reanimated": "^2.14.4",
+    "rn-nodeify": "github:tradle/rn-nodeify"
+  },
+  "expo": {
+    "autolinking": {
+      "include": [
+        "expo-file-system"
+      ]
+    }
+  },
+  "private": true
+}
