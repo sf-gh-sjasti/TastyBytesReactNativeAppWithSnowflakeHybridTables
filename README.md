@@ -94,7 +94,6 @@ In our configuration, the hybrid table ensures referential integrity by enforcin
 
 You may also explore additional hybrid tables such as TRUCK, MENU, and CUSTOMER_LOYALTY.
 
-2. Now Click on View Order button to see the Order Details.
-
-3. Click on ORDER READY button to complete the order. This action updates the Order Status value to Completed in Hybrid Table and take you back to the InQueue Orders Screen
+2. Click on the View Order button to access detailed order information. This action triggers a query on the hybrid table, employing point lookups to swiftly retrieve the specified order details.
+3. Press the ORDER READY button to finalize the order. This initiates an update in the Hybrid Table, swiftly setting the Order Status value to Completed while utilizing rapid updates with row locking mechanisms. Afterward, you will be redirected back to the InQueue Orders Screen.
 4. Now, Click on Order History tab to see the completed orders.
