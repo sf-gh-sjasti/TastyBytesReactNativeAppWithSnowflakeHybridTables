@@ -36,7 +36,7 @@ For Tasty Bytes food truck drivers, quick access to past and current orders, alo
 We are using Key Pair Authentication to authenticate with Snowflake using SQL API. ```API/endpoints.py``` file has the API's we are using in the application. We are using SQLAlchemy to connect to the Snowflake. 
 ``` UserInterface/Orders.js ``` has the source code to render Orders screen. ``` OrderDetails.js ``` has the source code to render Order Details Screen.
 
-### Step 4: Navigating through the application
+### Step 3: Navigating through the application
 1. Hybrid tables play a crucial role in the ordering process. Upon Launch of the application, You can see the InQueue Orders Screen. Now, let's delve into the development of this screen, starting with the Data Model. At the core of this Data Model are two primary tables. The first is the ORDER_HEADER table, which encompasses all orders placed by customers. Below, you'll find the definition of this table, outlining how it was created. Note that a primary key is mandatory for hybrid tables, and in this case, the ORDER_ID serves as the primary key. 
 
 ```sql
