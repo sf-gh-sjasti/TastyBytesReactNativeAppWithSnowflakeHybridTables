@@ -35,6 +35,18 @@ def connect():
         ),
         connect_args={
             'private_key': pkb,
+            'query_tag': {
+                "origin":"sf_sit",
+                "name":"tb_unistore_app",
+                "version":{
+                    "major":1, 
+                    "minor":1
+                },
+                "attributes":{
+                    "medium":"quickstart", 
+                    "source":"tastybytes"
+                }
+            }
         })
     return engine
 
